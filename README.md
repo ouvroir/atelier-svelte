@@ -1,3 +1,30 @@
+# Atelier Sveltekit de l'Ouvroir d'histoire de l'art et de muséologie numériques
+
+## Table de matière
+
+- [Atelier Sveltekit de l'Ouvroir d'histoire de l'art et de muséologie numériques](#atelier-sveltekit-de-louvroir-dhistoire-de-lart-et-de-muséologie-numériques)
+	- [Table de matière](#table-de-matière)
+	- [Svelte et Sveltekit](#svelte-et-sveltekit)
+	- [Node et NPM](#node-et-npm)
+			- [L'environnement d'éxecution Node](#lenvironnement-déxecution-node)
+			- [NPM, le package manager de Node](#npm-le-package-manager-de-node)
+		- [Vite, un environnement de développement et de production](#vite-un-environnement-de-développement-et-de-production)
+	- [Sveltkit](#sveltkit)
+		- [Architecture d'un projet](#architecture-dun-projet)
+			- [package.json](#packagejson)
+				- [Les scripts](#les-scripts)
+				- [Les "devDependencies"](#les-devdependencies)
+				- [Les "dependencies"](#les-dependencies)
+			- [Le dossier node\_modules](#le-dossier-node_modules)
+			- [package-lock.json](#package-lockjson)
+			- [.npmrc](#npmrc)
+			- [svelte.config.js](#svelteconfigjs)
+			- [.gitignore](#gitignore)
+			- [README.md](#readmemd)
+			- [jsconfig.json](#jsconfigjson)
+
+
+
 ## Svelte et Sveltekit
 
 Les frameworks modernes s'inscrivent dans une logique de **composants**. L'enjeux est avant tout la réutilisabilité du code (et donc des composants), la facilité de maintenance et de modification ainsi que la facilité de développement.
@@ -193,7 +220,7 @@ Ce fichier permet d'indiquer à Git quels fichiers ou répertoires sont à exclu
 
 Fichier markdown redonnant les commandes de base pour lancer un serveur de développement et builder l'application.
 
-Si le projet est publié sur Github ou GitLab, ce fichier servira de description du projet tant qu'il est laissé à la racine du projet.
+Si le projet est publié sur Github ou GitLab, ce fichier servira de description du projet tant qu'il est laissé à la racine du projet (à condition de ne pas changer le nom de fichier).
 
 #### jsconfig.json
 

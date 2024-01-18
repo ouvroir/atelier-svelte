@@ -1,0 +1,58 @@
+html {
+  font-family: "Open Sans", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-columns: minmax(5rem, auto) [content-start] 1fr [content-end] minmax(
+      5rem,
+      auto
+    );
+
+  padding-top: 3rem;
+}
+
+body > * {
+  grid-column: content;
+}
+
+h1 {
+  font-size: 2.7rem;
+}
+
+#posts {
+  list-style: none;
+  margin-top: 3rem;
+  margin-left: 4rem;
+}
+
+#posts li {
+  max-width: 35rem;
+  padding: 1rem 0.5rem;
+
+  &:hover {
+    background-color: rgba(211, 211, 211, 0.346);
+  }
+}
+
+#posts a {
+  text-decoration: none;
+  color: black;
+}
+
+#posts h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+#posts p {
+  margin-top: 0.5rem;
+}
+
+#posts .post-li-author {
+  margin-top: 0.2rem;
+}
+
+#posts > * + * {
+  margin-top: 2rem;
+}
