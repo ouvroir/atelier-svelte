@@ -1,5 +1,7 @@
 # Atelier Sveltekit de l'Ouvroir d'histoire de l'art et de muséologie numériques
 
+Lien du pad Ouvroir pour la prise de note collaborative : https://demo.hedgedoc.org/vMcWp0nwRe-XJGhdmpeC8w?edit#
+
 ## Table de matière
 
 - [Atelier Sveltekit de l'Ouvroir d'histoire de l'art et de muséologie numériques](#atelier-sveltekit-de-louvroir-dhistoire-de-lart-et-de-muséologie-numériques)
