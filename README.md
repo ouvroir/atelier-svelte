@@ -210,8 +210,10 @@ Pour installer un package, on utilise encore la commande `npm install` mais cett
 
 À l'exécution de la commande, on peut vérifier que NPM a bien créé une dépendance dans notre `package.json`. Cependant, comme c'est le cas de `svelte` ou de `vite`, `mdsvex` n'est utile qu'au moment du développement tandis que, pour le moment, elle inscrite comme étant une dépendance en tout temps. Réctifions le problème en retirant `mdsvex` des dépendances et en la réinstallant dans les `devDependencies` :
 
-> npm remove mdsvex
-> npm install -D mdsvex
+```bash
+npm remove mdsvex
+npm install -D mdsvex
+```
 
 Ici, c'est le paramètre `-D` qui indique à NPM que la dépendance que nous souhaitons installer est placer dans les devDependencies. Si l'on voulait expliciter qu'une dépendance est utile en tout temps on pourrait utiliser le paramètre `-S`.
 
