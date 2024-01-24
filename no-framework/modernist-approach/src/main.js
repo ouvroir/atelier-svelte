@@ -16,7 +16,7 @@ fetch("./src/data.json")
 
 function createPostElement({ title, author, date, description }) {
   return `
-        <li class="post-li">
+        <li class="post-li" />
             <a href="/">
                 <h3 class="post-li-title">${title}</h3>
                 <div class="post-li-author">${author}</div>

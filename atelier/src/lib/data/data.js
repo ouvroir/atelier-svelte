@@ -1,0 +1,41 @@
+export const toto = [
+	{
+		title: 'Introduction to XML and TEI',
+		author: 'John Doe',
+		published_date: '2024-01-17',
+		tags: ['XML', 'TEI', 'Markup'],
+		description: 'An overview of XML and TEI, highlighting their significance in document markup.'
+	},
+	{
+		title: 'Benefits of Using TEI in Digital Humanities',
+		author: 'Jane Smith',
+		published_date: '2024-01-18',
+		tags: ['TEI', 'Digital Humanities', 'Markup'],
+		description:
+			'Explore the advantages of employing TEI for encoding and preserving humanities data in the digital era.'
+	},
+	{
+		title: 'XML Schema: Defining Document Structure',
+		author: 'Alex Johnson',
+		published_date: '2024-01-19',
+		tags: ['XML', 'XML Schema', 'Markup'],
+		description:
+			'A brief guide to XML Schema and its role in defining the structure and constraints of XML documents.'
+	},
+	{
+		title: 'TEI Guidelines for Text Encoding',
+		author: 'Emily Rogers',
+		published_date: '2024-01-20',
+		tags: ['TEI', 'Text Encoding', 'Markup'],
+		description:
+			'An overview of TEI guidelines and best practices for encoding textual information in diverse contexts.'
+	},
+	{
+		title: 'Transforming XML with XSLT',
+		author: 'Michael Brown',
+		published_date: '2024-01-21',
+		tags: ['XML', 'XSLT', 'Transformation'],
+		description:
+			'Learn how XSLT (eXtensible Stylesheet Language Transformations) is used to transform XML data into different formats.'
+	}
+];
